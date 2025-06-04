@@ -1,0 +1,90 @@
+/* ===================== */
+/* 1. GENERAL STYLES   */
+/* ===================== */
+
+/* General Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes padding and border included in element's total width/height */
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Choose a clean, readable font-family */
+    line-height: 1.6;
+    color: #333; /* Dark gray text for readability */
+    background-color: #f4f4f4; /* Light gray background */
+    overflow-x: hidden; /* Prevent horizontal scrollbar issues */
+}
+
+/* Base Link Styles */
+a {
+    color: #007bff; /* A nice blue for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Utility Classes for Buttons */
+.button {
+    display: inline-block; /* Allows setting padding, width, height */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button-secondary {
+    display: inline-block;
+    background-color: #6c757d; /* Gray for secondary button */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button-secondary:hover {
+    background-color: #5a6268;
+}
+
+.button-small {
+    padding: 5px 10px; /* Smaller padding for project card buttons */
+    font-size: 0.9em;
+}
+
+/* Highlight Text */
+.highlight {
+    color: #007bff; /* Or a vibrant accent color */
+}
+
+/* Section Spacing (General layout for all sections) */
+section {
+    padding: 80px 20px; /* Top/bottom padding for each section */
+    margin: 0 auto; /* Center sections if they have max-width */
+    max-width: 1200px; /* Max width to keep content readable on large screens */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #2c3e50; /* Darker color for headings */
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,44 @@
+/* ===================== */
+/* 5. SKILLS SECTION STYLES */
+/* ===================== */
+
+#skills {
+    background-color: #f8f9fa; /* Light gray for this section */
+}
+
+.skills-grid {
+    display: grid; /* Use CSS Grid for a clean layout */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+    gap: 30px; /* Space between skill categories */
+    margin-top: 40px;
+}
+
+.skill-category {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.skill-category h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    background-color: #e9ecef; /* Lighter gray for skill tags */
+    color: #333;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block; /* Treat as tags */
+    font-size: 0.95em;
+    margin: 5px; /* Space between skill tags */
+}

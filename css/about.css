@@ -1,0 +1,31 @@
+/* ===================== */
+/* 4. ABOUT SECTION STYLES */
+/* ===================== */
+
+#about {
+    text-align: center;
+    background-color: #fff; /* White background for this section */
+}
+
+.about-content {
+    display: flex; /* Use flexbox to arrange image and text */
+    flex-direction: column; /* Stack vertically by default */
+    align-items: center; /* Center items in column */
+    gap: 30px; /* Space between image and text */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    border: 5px solid #007bff; /* Blue border */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-text {
+    text-align: center; /* Centers inline content like the resume button */
+    max-width: 600px; /* Limit text width for readability */
+}

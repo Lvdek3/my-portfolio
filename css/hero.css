@@ -1,0 +1,30 @@
+/* ===================== */
+/* 3. HERO SECTION STYLES */
+/* ===================== */
+
+#hero {
+    background-color: #34495e; /* Darker background for contrast */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px; /* More padding for a grander feel */
+    display: flex; /* Use flex to center content */
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Takes at least 80% of viewport height */
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+#hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #fff; /* White color for hero heading */
+}
+
+#hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}

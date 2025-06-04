@@ -1,0 +1,99 @@
+/* ===================== */
+/* 2. HEADER & NAV LAYOUT */
+/* ===================== */
+
+header {
+    background-color: #2c3e50; /* Dark blue/gray background */
+    color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow */
+    position: sticky; /* Stays at the top when scrolling */
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+nav {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Puts logo on one end, nav links on the other */
+    align-items: center; /* Vertically centers items */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.logo a {
+    color: #fff; /* White color for logo text */
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points from list */
+    display: flex; /* Make links horizontal */
+}
+
+.nav-links li {
+    margin-left: 25px; /* Space between links */
+}
+
+.nav-links a {
+    color: #fff; /* White color for nav links */
+    font-weight: bold;
+    padding: 5px 0;
+    position: relative; /* For the underline effect */
+}
+
+.nav-links a::after { /* Underline effect on hover */
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* ===================== */
+/* 8. FOOTER LAYOUT      */
+/* ===================== */
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 28px; /* Size for social icons */
+    height: 28px;
+    filter: invert(100%); /* Make placeholder icons white */
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}

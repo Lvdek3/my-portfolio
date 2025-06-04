@@ -1,0 +1,16 @@
+/* ======================= */
+/* 7. CONTACT SECTION STYLES */
+/* ======================= */
+
+#contact {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact-links {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Space between buttons */
+}

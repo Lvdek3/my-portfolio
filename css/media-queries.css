@@ -1,0 +1,49 @@
+/* ========================== */
+/* 9. MEDIA QUERIES (RESPONSIVENESS)  */
+/* ========================== */
+
+@media (max-width: 768px) {
+    /* Adjustments for Tablets and smaller */
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #hero {
+        padding: 80px 20px;
+        min-height: 60vh;
+    }
+
+    .nav-links {
+        display: none; /* Hide standard nav links on small screens */
+    }
+
+    /* ABOUT SECTION */
+    .about-content {
+        flex-direction: column; /* Ensure vertical stack on smaller screens */
+    }
+
+    /* PROJECTS SECTION */
+    .project-grid {
+        grid-template-columns: 1fr; /* Stack projects vertically on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for smaller phones */
+    h1 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 1.1em;
+    }
+
+    section {
+        padding: 50px 15px; /* Less padding on very small screens */
+    }
+
+    .contact-links .button,
+    .contact-links .button-secondary {
+        width: 100%; /* Make buttons full width on tiny screens */
+    }
+}
